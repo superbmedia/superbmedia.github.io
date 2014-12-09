@@ -12,23 +12,17 @@
 .fw {
 	padding: 0; width:100%;
 }
+.pad-top {
+	padding-top: 50px;
+}
 .pad-top-xl {
 	padding-top: 100px;
 }
 .jumbotron {
 	text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.5);		
 }
-.live-concert {
-	background-image: 
-		linear-gradient(
-			rgba(0, 0, 0, 0.2), 
-			rgba(0, 0, 0, 0.2)
-		),
-		url(../img/live-concert.jpg)
-	;
-	background-position: 50% 75%;
-	background-repeat: no-repeat;
-	background-size: cover;
+.jumbotron{
+	background-color: #0E3D59;
 }
 .lighting {
 	background-image: 
@@ -78,6 +72,9 @@
 	background-repeat: no-repeat;
 	background-size: cover;
 }
+.italic {
+	font-style:italic;
+}
 
 /*body {
 	padding-top: 70px;
@@ -94,9 +91,6 @@
 	font-size: 1.4em;
 	font-weight:500;
 	margin-top: 0.5em;
-}
-.pad-top {
-	padding-top: 50px;
 }
 .pad-top-sm {
 	padding-top: 15px;

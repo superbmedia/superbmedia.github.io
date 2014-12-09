@@ -1,17 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-  {% include head.html %}
-  <body name="top">
-    {% include nav.html %} 
-    <div class="container">
-    	<div class="row clearfix">
-    		<div class="col-xs-12 column">
-          {{content}}
-          {% include footer.html %}
-    		</div>
-    	</div>
-    </div>
-    {% include post-body.html %}
-  </body>
+	{% include head.html %}
+	<body name="top">
+		{% include nav.html %} 
+		<div class="container">
+			{{content}}
+			{% include footer.html %}
+		</div>
+		{% include post-body.html %}
+	</body>
 {% include smoothscroll.html %}
 </html>
