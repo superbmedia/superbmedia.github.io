@@ -7,7 +7,7 @@
 	font-family: Akashi;
 	font-weight: normal;
 	font-size: 24px;
-	padding: 22px 15px 22px 22px;
+	padding: 20px 15px 22px 20px;
 }
 .fw {
 	padding: 0; width:100%;
@@ -27,6 +27,54 @@
 		url(../img/live-concert.jpg)
 	;
 	background-position: 50% 75%;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.lighting {
+	background-image: 
+		linear-gradient(
+			rgba(0, 0, 0, 0.2), 
+			rgba(0, 0, 0, 0.2)
+		),
+		url(../img/lights.jpg)
+	;
+	background-position: 50% 75%;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.sound {
+	background-image: 
+		linear-gradient(
+			rgba(0, 0, 0, 0.2), 
+			rgba(0, 0, 0, 0.2)
+		),
+		url(../img/sound.jpg)
+	;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.movies {
+	background-image: 
+		linear-gradient(
+			rgba(0, 0, 0, 0.3), 
+			rgba(0, 0, 0, 0.3)
+		),
+		url(../img/popcorn.jpg)
+	;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.video {
+	background-image: 
+		linear-gradient(
+			rgba(0, 0, 0, 0.3), 
+			rgba(0, 0, 0, 0.3)
+		),
+		url(../img/camera.jpg)
+	;
+	background-position: 50% 65%;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
