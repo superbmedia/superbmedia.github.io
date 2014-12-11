@@ -3,6 +3,9 @@
 	font-family: Akashi;
 	src: url(../fonts/Akashi.ttf);
 }
+.pointer {
+	cursor:default;
+}
 .navbar-brand {
 	font-family: Akashi;
 	font-weight: normal;
@@ -21,8 +24,8 @@
 .jumbotron {
 	text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.5);		
 }
-.jumbotron{
-	background-color: #0E3D59;
+.transparent {
+	background: transparent;
 }
 .lighting {
 	background-image: 
@@ -75,12 +78,33 @@
 .italic {
 	font-style:italic;
 }
-.btn-align-right {
-	float:right;
+.pad-right-30 {
+	padding-right: 8.5px;
 }
-
+.aboutcopy {
+	font-size: 1.5em;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+.panel {
+	margin-top: 25px;
+	margin-bottom:25px;
+	border-width: 0px;
+}
+.panel-body {
+	padding: 25px;
+	font-size: 1.5em;
+	font-style: italic;
+}
+.panel-footer {
+	padding-left: 25px;
+	padding-right: 25px;
+}
 /*body {
 	padding-top: 70px;
+}
+.jumbotron{
+	background-color: #0E3D59;
 }
 .jumbotron {
 	margin-bottom: 0px;
