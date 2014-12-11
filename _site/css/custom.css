@@ -1,16 +1,11 @@
 /*colors for this site at https://color.adobe.com/Copy-of-Avant-color-theme-4814328/*/
-@font-face {
-	font-family: Akashi;
-	src: url(../fonts/Akashi.ttf);
-}
 .pointer {
 	cursor:default;
 }
 .navbar-brand {
-	font-family: Akashi;
-	font-weight: normal;
-	font-size: 24px;
-	padding: 20px 15px 22px 20px;
+	text-transform: uppercase;
+	letter-spacing: 6px;
+	padding-left: 20px;
 }
 .fw {
 	padding: 0; width:100%;
