@@ -1,25 +1,32 @@
 <!--navigation-->
-            <nav class="navbar navbar-default navbar-static-top" role="navigation">
-                <div class="container-fluid">
-                    <div class="navbar-header">
-                         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse"> <span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
-                        <b><a class="navbar-brand" href="{{ site.url }}/">Superb Media</a></b>
-                    </div>
-
-                    <div class="collapse navbar-collapse" id="navbar-collapse">
-                        <ul class="nav navbar-nav">
-                            <li>
-                                <a href="{{ site.url }}/">Home</a>
-                            </li>
-                            <li>
-                                <a href="{{ site.url }}/about.html">About</a>
-                            </li>
-                            <li>
-                                <a href="{{ site.url }}/contact.html">Contact</a>
-                            </li>
-                        </ul>
-                        <button type="button" class="navbar-right btn btn-primary navbar-btn text-uppercase" data-toggle="modal" data-target="#signup">Subscribe</button>
-                        <div class="visible-xs pad-bt-sm"></div>
-                    </div>
-                </div>
-            </nav>
+			<nav class="navbar navbar-default navbar-static-top" role="navigation">
+				<div class="container-fluid">
+					<div class="navbar-header">
+						 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse"> <span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+						<b><a class="navbar-brand" href="{{ site.url }}/">Superb Media</a></b>
+					</div>
+					<div class="collapse navbar-collapse" id="navbar-collapse">
+						<ul id="navlist" class="nav navbar-nav">
+							{% if page.active == "index" %}
+								<li class="active"><a href="#">Home</a></li>
+							{% else %}
+								<li><a href="{{ site.url }}/">Home</a></li>
+							{% endif %}
+							{% if page.active == "about" %}
+								<li class="active"><a href="#">About</a></li>
+							{% else %}
+							<li><a href="{{ site.url }}/about.html">About</a></li>
+							{% endif %}
+							{% if page.active == "contact" %}
+								<li class="active"><a href="#">Contact</a></li>
+							{% else %}
+							<li><a href="{{ site.url }}/contact.html">Contact</a></li>
+							{% endif %}
+						</ul>
+						<ul class="nav navbar-nav navbar-right">
+							<a type="button" class="typeform-share button btn-align-right btn btn-success navbar-btn text-uppercase" href="https://karlnippoldt.typeform.com/to/wCvDBZ" data-mode="2" target="_blank">Schedule an event</a>
+						</ul>
+						<div class="visible-xs pad-bt-sm"></div>
+					</div>
+				</div>
+			</nav>

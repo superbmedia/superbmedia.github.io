@@ -75,6 +75,9 @@
 .italic {
 	font-style:italic;
 }
+.btn-align-right {
+	float:right;
+}
 
 /*body {
 	padding-top: 70px;
